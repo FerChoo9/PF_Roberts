@@ -14,7 +14,31 @@
     .main__reserve img {
       width: 200px;
       height: 200px;
-      margin: 30px 0;
+      margin: 15px 0;
+    }
+    .main__reserve {
+      display: flex;
+      flex-direction: column-reverse;
+      p {
+        margin: 15px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        span {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+      button {
+        padding: 10px 40px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background-color: rgb(194, 66, 194);
+        color: $font-color;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 24px;
+      }
     }
     ul {
       list-style: none;
@@ -29,22 +53,6 @@
           color: black;
         }
       }
-    }
-    p {
-      margin: 15px 0;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
-    }
-    button {
-      padding: 10px 40px;
-      border: 2px solid black;
-      border-radius: 50px;
-      background-color: rgb(194, 66, 194);
-      color: $font-color;
-      font-family: Arial, Helvetica, sans-serif;
-      font-style: italic;
-      font-weight: bold;
-      font-size: 24px;
     }
   }
 }

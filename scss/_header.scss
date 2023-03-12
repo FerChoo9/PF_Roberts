@@ -2,6 +2,10 @@
   font-family: gloriousfree;
   src: url(../fonts/GloriousFree-dBR6.ttf);
 }
+@font-face {
+  font-family: ChopinScripts;
+  src: url(../fonts/ChopinScript.otf);
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -11,13 +15,6 @@
     margin-top: 10px;
     font-family: gloriousfree;
     font-size: 48px;
-    font-weight: lighter;
-  }
-  h2 {
-    margin-bottom: 10px;
-    position: relative;
-    bottom: 15px;
-    font-family: gloriousfree;
     font-weight: lighter;
   }
 }
