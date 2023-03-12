@@ -1,0 +1,22 @@
+.navbar {
+  hr {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 3px;
+    background-color: $font-color;
+    margin-top: 5px;
+  }
+  .navbar__list {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
