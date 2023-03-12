@@ -29,6 +29,10 @@ body {
   background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
 
+@font-face {
+  font-family: gloriousfree;
+  src: url(../fonts/GloriousFree-dBR6.ttf);
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -37,6 +41,7 @@ body {
 }
 .header h1 {
   margin: 10px 0 10px 0;
+  font-family: gloriousfree;
 }
 .header h2 {
   margin-bottom: 10px;

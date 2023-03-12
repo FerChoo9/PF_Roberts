@@ -1,3 +1,7 @@
+@font-face {
+  font-family: gloriousfree;
+  src: url(../fonts/GloriousFree-dBR6.ttf);
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -5,6 +9,7 @@
   margin: 0 auto;
   h1 {
     margin: 10px 0 10px 0;
+    font-family: gloriousfree;
   }
   h2 {
     margin-bottom: 10px;
