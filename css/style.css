@@ -1,3 +1,7 @@
+@font-face {
+  font-family: gloriousfree;
+  src: url(../fonts/GloriousFree-dBR6.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -29,14 +33,6 @@ body {
   background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
 
-@font-face {
-  font-family: gloriousfree;
-  src: url(../fonts/GloriousFree-dBR6.ttf);
-}
-@font-face {
-  font-family: ChopinScripts;
-  src: url(../fonts/ChopinScript.otf);
-}
 .header {
   display: flex;
   flex-direction: column;
@@ -46,7 +42,7 @@ body {
 .header h1 {
   margin-top: 10px;
   font-family: gloriousfree;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: lighter;
 }
 
@@ -153,6 +149,30 @@ body {
   .footer {
     display: none;
   }
+}
+
+.footer {
+  margin: 30px 0;
+}
+.footer input {
+  border: 1px solid black;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.footer .footer__newsletter-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.footer .footer__newsletter-text {
+  margin: 1rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 80%;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
