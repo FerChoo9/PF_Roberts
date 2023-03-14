@@ -56,9 +56,12 @@
     }
   }
 }
+.product {
+  grid-area: product;
+}
 .main .product {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border: 1px solid black;
   border-radius: 20px;
   margin: 20px;
@@ -72,5 +75,18 @@
   a {
     text-decoration: none;
     color: black;
+  }
+}
+
+@media (min-width: 700px) {
+  .main__products {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    .product {
+      width: 200px;
+      height: auto;
+      margin: 1rem auto;
+    }
   }
 }
