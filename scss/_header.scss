@@ -10,3 +10,11 @@
     font-weight: lighter;
   }
 }
+@media (max-width: 770px) {
+  .contacto {
+    display: none;
+  }
+  .nosotros {
+    display: none;
+  }
+}
