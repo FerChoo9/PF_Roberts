@@ -171,22 +171,68 @@ body {
     margin: 1rem auto;
   }
 }
-.main__quienessomos {
+.main__text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main__text .main__quienessomos {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   margin: 2rem;
+  text-align: center;
 }
-
-.main__nuestrahistoria {
+.main__text .main__quienessomos .main__quienessomos-image {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px auto;
+}
+.main__text .main__quehacemos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin: 2rem;
+  position: relative;
+  top: 80px;
+  margin: 1rem auto;
 }
-
-.main__quehacemos {
+.main__text .main__quehacemos .main__quehacemos-image {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px auto;
+}
+.main__text .main__nuestrahistoria {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 2rem;
+  margin: 100px auto;
+}
+.main__text .main__nuestrahistoria .main__nuestrahistoria-image {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 500px;
 }
 
+.main .main__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.main .main__form textarea {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
 .main .main__form input {
+  display: flex;
   margin: 1rem;
   border: 2px solid black;
   border-radius: 20px;
@@ -195,9 +241,6 @@ body {
   width: 200px;
   height: 25px;
   background-color: whitesmoke;
-}
-.main .main__form #mensaje {
-  height: 150px;
 }
 .main .main__form button {
   height: 25px;
@@ -235,11 +278,10 @@ body {
   font-style: italic;
 }
 .footer .footer__newsletter-text {
-  margin: 0 auto;
+  margin: 1rem auto;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  width: 80%;
-  display: flex;
+  width: 100%;
   text-align: center;
 }
 
